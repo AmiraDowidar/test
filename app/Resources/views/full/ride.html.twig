@@ -1,0 +1,44 @@
+{% extends "pagelayout.html.twig" %}
+
+{% block content %}
+
+ <section class="top-banner" style="background-image: url('{{ asset('assets/images/Libon-Out.jpg') }}');">
+    <div class="mask">
+
+      <div class="container">
+        
+        {% include 'pagelayout_header.html.twig' %}
+
+        <!-- intro text -->
+        <h2 class="text-center">Cheap international calls</h2>
+        <h3 class="text-center">whenever you want</h3>
+
+        <!-- search bar -->
+        <div class="search-bar text-center">
+          <form action="">
+            <div class="row">
+              <i class="icon-search"></i>
+              <input type="search" placeholder="Where do you want to call ?" class="text-center">
+            </div>
+          </form>
+          <a href="#">SEE ALL DESTINATIONS</a>
+        </div>
+        <!-- download app -->
+        <div class="platforms text-center">
+          <a href="#">
+            <img src="{{ asset('assets/images/Apple-Store.png') }}" alt="" />
+          </a>
+          <a href="#">
+            <img src="{{ asset('assets/images/Google-Play.png') }}" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+<h2>Ride:</h2>
+
+<h2>{{ ez_content_name( content ) }}</h2>
+
+
+{% endblock %} 

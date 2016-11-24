@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!-- Basic Page Needs
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="">
+        <meta name="author" content="">
+        {% if content is defined and title is not defined %}
+            {% set title = ez_content_name(content) %}
+        {% endif %}
+        <title>{{ title|default('Home')|trans }} - {{ 'Cheapest rates for international calls - Libon' }}</title>
+
+        <!-- Mobile Specific Metas
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="theme-color" content="#F16E00">
+        <meta name="msapplication-navbutton-color" content="#F16E00">
+        <meta name="apple-mobile-web-app-status-bar-style" content="#F16E00">
+
+        <!-- Load Libon favicon
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <link rel="Shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon" />
+
+
+        <!-- FONTS CSS & scripts
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        {% include 'pagelayout_styles.html.twig' %}
+        {% include 'pagelayout_scripts.html.twig' %}
+    </head>
+    <body>
+
+        {% block content %}{% endblock %}
+       
+        {% include 'pagelayout_footer.html.twig' %}
+
+    </body>
+</html>

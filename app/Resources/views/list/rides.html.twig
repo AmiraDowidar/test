@@ -1,0 +1,20 @@
+{% for ride in pagerRides %}
+      {% if loop.first %}
+        <table class="table table-hover">
+        <thead>
+        <tr class="table-header">
+          <th> Ride</th>
+          <th>From</th>
+          <th> To</th>
+          <th>Distance</th>
+          <th>Level</th>
+        </tr>
+        </thead>
+        <tbody>
+      {% endif %}
+      {{ render( controller( 'ez_content:viewLocation', { 'locationId': ride.versionInfo.contentInfo.mainLocationId, 'viewType': 'line' } )) }}
+      {% if loop.last %}
+        </tbody>
+        </table>
+      {% endif %}
+    {% endfor %}

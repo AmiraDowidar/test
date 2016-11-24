@@ -1,0 +1,370 @@
+{% extends "pagelayout.html.twig" %}
+
+{% block content %}
+
+ <section class="top-banner" style="background-image: url('{{ asset('assets/images/Libon-Out.jpg') }}');">
+    <div class="mask">
+
+      <div class="container">
+        
+        {% include 'pagelayout_header.html.twig' %}
+
+        <!-- intro text -->
+        <h2 class="text-center">Cheap international calls</h2>
+        <h3 class="text-center">whenever you want</h3>
+
+        <!-- search bar -->
+        <div class="search-bar text-center">
+          <form action="">
+            <div class="row">
+              <i class="icon-search"></i>
+              <input type="search" placeholder="Where do you want to call ?" class="text-center">
+            </div>
+          </form>
+          <a href="#">SEE ALL DESTINATIONS</a>
+        </div>
+        <!-- download app -->
+        <div class="platforms text-center">
+          <a href="#">
+            <img src="{{ asset('assets/images/Apple-Store.png') }}" alt="" />
+          </a>
+          <a href="#">
+            <img src="{{ asset('assets/images/Google-Play.png') }}" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+  <section class="home-section pack">
+    <div class="container">
+      <h3 class="light-40 visible-xs">Pack offered to call SMART</h3>
+      <div class="pack-img col-xs-12 col-sm-4 col-md-4 col-lg-4">
+        <img src="{{ asset('assets/images/pack1.png') }}" alt="" />
+      </div>
+      <div class="pack-details clearfix col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h3 class="light-40 hidden-xs">Pack offered to call SMART</h3>
+        <p class="light-24">
+          Text messages, e-mail and emojis are
+          gradually replacing the voice in our daily
+          exchanges. Voice matters.
+          Let’s save it!
+        </p>
+        <div class="btn-center">
+          <a href="#" class="outline-btn">LEARN MORE</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="flags">
+    <div class="container">
+        <h3 class="light-40 text-center">Popular destinations</h3>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" >
+          <a href="#">
+            <img src="{{ asset('assets/images/flag_fr.png') }}" alt="" />
+            <span class="country-name">France</span>
+            <span class="minutes">
+              10c/minute
+            </span>
+            <small>(VAT included)</small>
+          </a>
+          <br>
+          <div class="btn-center ">
+            <a href="#" class="outline-btn">SEE RATES</a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" >
+          <a href="#">
+            <img src="{{ asset('assets/images/flag_ma.png') }}" alt="" />
+            <span class="country-name">Morocco</span>
+            <span class="minutes">
+              10c/minute
+            </span>
+            <small>(VAT included)</small>
+          </a>
+          <br>
+          <div class="btn-center ">
+            <a href="#" class="outline-btn">SEE RATES</a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" >
+          <a href="#">
+            <img src="{{ asset('assets/images/flag_ph.png') }}" alt="" />
+            <span class="country-name">Philippine</span>
+            <span class="minutes">
+              10c/minute
+            </span>
+            <small>(VAT included)</small>
+          </a>
+          <br>
+          <div class="btn-center ">
+            <a href="#" class="outline-btn">SEE RATES</a>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3 text-center" >
+          <a href="#">
+            <img src="{{ asset('assets/images/flag_jp.png') }}" alt="" />
+            <span class="country-name">Japan</span>
+            <span class="minutes">
+              10c/minute
+            </span>
+            <small>(VAT included)</small>
+          </a>
+          <br>
+          <div class="btn-center ">
+            <a href="#" class="outline-btn">SEE RATES</a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section class="home-section available-destination">
+    <div class="container">
+      <div class="text-center">
+        <a class="toggle-countries">ALL AVAILABLE DESTINATIONS <i class="icon-arrow_down hidden-xs"></i></a>
+      </div>
+      <div class="countries-list">
+        <ul>
+          <li>
+            <strong>A</strong>
+            <ul>
+              <li>
+                <a href="#">
+                  Algeria
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  American Samoa
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Andorra
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Angola
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Argentina
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Australia
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Austria
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>B</strong>
+            <ul>
+              <li>
+                <a href="#">
+                  Bahrain
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Bangladesh
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Belgium
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Benin
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Bhutan
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Bolivia
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Botswana
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Brazil
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Brunei
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Bulgaria
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  Burkina Faso
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  {{ render( controller( "AppBundle:Homepage:getAllRides" ) ) }}
+
+  <section class="home-section offers">
+    <div class="container">
+      <div class="col-xs-5 col-sm-4 col-md-4 col-lg-4">
+        <div class="image pull-left">
+          <img src="{{ asset('assets/images/Mobile.png') }}" alt="" />
+          <div class="international-price">
+            <span>
+            From<br>
+            <span class="currency gbp" style="display: inline"><span class="interrest-price">0.6p</span>/min</span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="details col-sm-8 col-md-8 col-lg-8 hidden-xs">
+        <h3 class="light-40">Save on your international calls</h3>
+        <p>
+          Cheap international calls to more than <strong>150 countries</strong>
+          <br>
+          Call to mobiles and landlines in more than <strong>150 destinations</strong>
+          <br>
+          around the world at very low rates.
+        </p>
+      </div>
+      <div class="details col-xs-7 visible-xs">
+        <h3 class="light-40">Save on your international calls</h3>
+      </div>
+      <div class="details col-xs-12  visible-xs">
+        <p>
+          Cheap international calls to more than <strong>150 countries</strong>
+          <br>
+          Call to mobiles and landlines in more than <strong>150 destinations</strong>
+          <br>
+          around the world at very low rates.
+        </p>
+      </div>
+    </div>
+  </section>
+
+    
+
+     <section class="home-section call-features text-center">
+    <div class="container">
+      <h3 class="light-40">No Hidden Cost</h3>
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <!-- <i class="icon-earth"></i> -->
+        <img src="{{ asset('assets/images/earth.svg') }}" alt="" />
+        <br>
+        <span>
+          From all over
+          <br>
+          the world
+        </span>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <!-- <i class="icon-cal"></i> -->
+        <img src="{{ asset('assets/images/cal.svg') }}" alt="" />
+        <br>
+        <span>
+          No expiration
+          <br>
+          date
+        </span>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <!-- <i class="icon-money"></i> -->
+        <img src="{{ asset('assets/images/money.svg') }}" alt="" />
+        <br>
+        <span>
+          No connexion
+          <br>
+          fee
+        </span>
+      </div>
+      <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+        <!-- <i class="icon-time"></i> -->
+        <img src="{{ asset('assets/images/time.svg') }}" alt="" />
+        <br>
+        <span>
+          Per second
+          <br>
+          billing
+        </span>
+      </div>
+    </div>
+  </section>
+  
+  <section class="home-section property download">
+    <div class="container">
+      <h4 class="light-40 visible-xs">Sign up today and get free minutes to try Libon Out calls</h4>
+      <div class="thumb col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <img src="{{ asset('assets/images/Download-Visuel.jpg') }}" alt="" />
+      </div>
+      <div class="text col-xs-12 col-sm-6 col-md-6 col-lg-6">
+        <h4 class="light-40 hidden-xs">Sign up today and get free minutes to try Libon Out calls</h4>
+        <p class="light-24">
+          Make free calls to mobiles and landlines in
+          more than 150 countries
+        </p>
+        <div class="platforms">
+          <a href="#">
+            <img src="{{ asset('assets/images/Apple-Store.png') }}" alt="">
+          </a>
+          <a href="#">
+            <img src="{{ asset('assets/images/Google-Play.png') }}" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="home-section mini-faq text-center">
+    <div class="container">
+      <h3 class="light-40">How does it work?</h3>
+      <ul>
+        <li>
+          <a href="#">What is Libon Out minutes and how to buy them ?</a>
+        </li>
+        <li>
+          <a href="#">What country can i call with Libon Out ?</a>
+        </li>
+        <li>
+          <a href="#">How to earn free Libon Out minutes ?</a>
+        </li>
+      </ul>
+      <div class="faq-search">
+        <form class="" action="">
+          <i class="icon-search"></i>
+          <input type="search" class="text-center" placeholder="What’s your question?">
+          <input type="submit" class="orange-btn" value="SEARCH">
+        </form>
+      </div>
+    </div>
+  </section>
+{% endblock %}

@@ -1,0 +1,12 @@
+
+index:
+    path:     /index
+    defaults: { _controller: AppBundle:Ride:index }
+
+view_ride:
+    path:     /viewRide
+    defaults: { _controller: AppBundle:Ride:viewRide }
+
+get_all_rides:
+    path:     /getAllRides
+    defaults: { _controller: AppBundle:Homepage:getAllRides }
