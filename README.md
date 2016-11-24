@@ -79,3 +79,7 @@ Copyright (C) 1999-2015 eZ Systems AS. All rights reserved.
 
 ## LICENSE
 http://www.gnu.org/licenses/gpl-2.0.txt GNU General Public License v2
+
+# test
+test
+
